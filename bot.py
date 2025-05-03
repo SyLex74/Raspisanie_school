@@ -12,11 +12,11 @@ dotenv.load_dotenv()
 
 # Ссылки на Google Sheets для каждого дня
 SHEET_LINKS = {
-    'Понедельник': '1x18Nc2Lr7Ngz8TKS42Lj90Yt8HY6IPxlOZ7BQYyGJ3Q',
-    'Вторник': '13qaJOlSOyPIoRChhFvUVPQQi1_epW6HXouq6tULz9W0',
-    'Среда': '1iAIHPysJsk-0-RykEueFw0KLZszxl4xPfXL--Jl0PzU',
-    'Четверг': '1ocDeEne_9p7AIbCFDOsJnUtkzr4BXAlf29d6h6O2lFk',
-    'Пятница': '15EJNyajCT6pPFouExF77fgvyZmKZZRHAVVqhQHmwI4k',
+    'Понедельник': os.getenv('poned'),
+    'Вторник': os.getenv('vtor'),
+    'Среда': os.getenv('sred'),
+    'Четверг': os.getenv('chetv'),
+    'Пятница': os.getenv('piatn')
 
 }
 
